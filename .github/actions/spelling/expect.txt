@@ -26,7 +26,6 @@ prestoncarman
 px
 README
 seo
-socio
 src
 stylesheet
 tagline
