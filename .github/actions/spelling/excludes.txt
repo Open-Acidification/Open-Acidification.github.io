@@ -1,2 +1,8 @@
 ^\.github/linters/
+^\.github/action/spell-check/
+^\.github/workflows/
 ^TEMPLATES/\.\S*
+Gemfile.lock
+\.pdf$
+\.png$
+\.xslx?$
