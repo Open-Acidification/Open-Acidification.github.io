@@ -17,6 +17,7 @@ html
 http
 img
 mailto
+Microsoft
 Mozilla's
 NONINFRINGEMENT
 Onthank
