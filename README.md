@@ -42,7 +42,7 @@ An apparatus to determine total alkalinity in sea water using an open-cell titra
 
 #### Other Projects
 
-[Open Acidification Project](https://github.com/Open-Acidification/Open-Acidification.github.io) - Project documentation of all related projects.
+* [Open Acidification Project](https://github.com/Open-Acidification/Open-Acidification.github.io) - Project documentation of all related projects.
 
 ### Contributions
 
@@ -51,9 +51,9 @@ Since then others have contributed to the project, here are a few highlights fro
 
 #### Student Projects
 
-* The Tank Controller's micro controller was updated to support API calls by [Matthew Ma](https://github.com/PlasmaIntec).
-* The Tank Controller's server was initial creation was done by [Cameron Bierwagen](https://github.com/3dCameron).
-* The Alkalinity Titrator's initial source code was developed by [Kaden Sukachevin](https://github.com/kadensu).
+* The Tank Controller's micro controller was updated to support API calls by [Matthew Ma](https://github.com/PlasmaIntec) in 2020.
+* The Tank Controller's server was initial creation was done by [Cameron Bierwagen](https://github.com/3dCameron) in 2020.
+* The Alkalinity Titrator's initial source code was developed by [Kaden Sukachevin](https://github.com/kadensu) in 2020.
 
 ### How to Get Involved
 
