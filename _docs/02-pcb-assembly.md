@@ -60,7 +60,7 @@ Repeat for all the rest...
 
   ![relay module without rubber base]()
 
-1. Remove pins using the solding iron and pliers
+1. Remove pins using the soldiering iron and pliers
 
   ![relay module without rubber base]()
 
