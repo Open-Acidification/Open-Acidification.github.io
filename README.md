@@ -1,5 +1,25 @@
 ## Welcome to the Open Acidification Project
 
+### How to build website locally
+
+You may want to update rubygems before running these commands.
+
+```
+gem update --system
+```
+
+Command to install the libraries for building the website.
+
+```
+bundle install --path vendor/bundle
+```
+
+Command to run the website locally.
+
+```
+bundle exec jekyll serve
+```
+
 ### Contributions
 
 The initial source code and hardware was created by [Kirt Onthank](https://github.com/KirtOnthank).
