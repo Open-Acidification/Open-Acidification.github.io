@@ -2,7 +2,7 @@
 
 ### How to build website locally
 
-You may want to update rubygems before running these commands.
+You may want to update ruby gems before running these commands.
 
 ```
 gem update --system

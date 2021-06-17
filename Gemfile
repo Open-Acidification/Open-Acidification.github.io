@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-# Add prerequistes for buildign the site
+# Add prerequisites for building the site
 gem "jekyll"
 gem "rack"
 
-# Add libraries for website
+# Add libraries for documentation site
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
