@@ -1,8 +1,29 @@
-^\.github/linters/
-^\.github/action/spell-check/
-^\.github/workflows/
-^TEMPLATES/\.\S*
+# Ignore Gem lock file
 Gemfile.lock
+# Ignore directories (Golang) named `vendor`
+(?:^|/)vendor/
+# Ignore directories named `third_party`
+(?:^|/)third_party/
+# Ignore npm files
+(?:^|/)package(?:-lock|)\.json$
+# Ignore files named (yarn for Node.js) `yarn.lock`
+(?:^|/)yarn\.lock$
+# Ignore files named (rust) `Cargo.toml`
+(?:^|/)Cargo\.toml$
+# Ignore files or directories that case-insensitively have `LICENSE` somewhere in their path
+(?:(?i)LICENSE)
+# Ignore files ending in...
 \.pdf$
 \.png$
+\.jpg$
+# Ignore Excel files (`.xsl` and `.xslx`)
 \.xslx?$
+# Ignore locales that aren't en / en_GB (roughly: keep en_US and drop everything else)
+locales/(?!en)
+locales/en_GB
+# Ignore GitHub `CONTRIBUTING.md` in the root
+^CONTRIBUTING\.md$
+# Ignore the action's configuration data
+^\.github/action/spelling/
+# Ignore all GitHub workflow files
+^\.github/workflows/
