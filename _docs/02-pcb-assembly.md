@@ -2,8 +2,6 @@
 title: PCB Assembly
 ---
 
-# PCB Assembly
-
 ## Tools Required
 
 * Soldiering iron

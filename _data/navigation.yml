@@ -1,23 +1,37 @@
 # main links
 main:
-  - title: "Getting Started"
-    url: /docs/01-getting-started/
+  - title: "Documentation"
+    url: /docs/00-projects/
   - title: "About"
     url: /docs/about.html
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 # documentation links
 docs:
-  - title: Getting Started
+  - title: Projects
+    children:
+      - title: "Projects Overview"
+        url: /docs/00-projects/
+  - title: Tank Controller
     children:
       - title: "Quick-Start Guide"
         url: /docs/01-getting-started/
       - title: "PCB Assembly"
         url: /docs/02-pcb-assembly/
+      - title: "Device Assembly"
+        url: /docs/03-device-assembly/
+      - title: "Install Software"
+        url: /docs/04-install-software/
+      - title: "Operations"
+        url: /docs/05-operations/
+  - title: Tank Controller Manager
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/11-getting-started/
+  - title: Alkalinity Titrator
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/21-getting-started/
+  - title: META
+    children:
+      - title: "License"
+        url: /docs/30-license/

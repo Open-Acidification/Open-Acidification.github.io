@@ -1,7 +1,7 @@
 ---
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 
-title: [Open Acidification Project]
+title: Open Acidification Project
 logo: /assets/images/OAP_Logo_small.png
 
 minimal_mistakes_skin    : "dark"
