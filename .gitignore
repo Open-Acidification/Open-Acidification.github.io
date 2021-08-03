@@ -1,3 +1,5 @@
 _site
 vendor/
 .bundle/
+**/*.sync-conflict*
+**/20210616*
