@@ -210,7 +210,7 @@ Once you have check the voltage outputs of the buck converters, confirming corre
 After you have solders all 4 pins on each buck converter, you can trim the pins on the opposite face from the buck converter with a wire cutter.
 
 ## PT100 temperature probe break out board
-Next we will attach the headers and conigure the MAX31865 PT100 temperature probe break out board.  You will need the 8-pin male header that came with the breakout board, a 8-pin female header, three 1-pin female headers, and clip off 3 1-pin headers from the spare 16-pin header as you did with the buck converters.  You will not need the two screw terminals that come with the pt100 breakout board.
+Next we will attach the headers and configure the MAX31865 PT100 temperature probe break out board.  You will need the 8-pin male header that came with the breakout board, a 8-pin female header, three 1-pin female headers, and clip off 3 1-pin headers from the spare 16-pin header as you did with the buck converters.  You will not need the two screw terminals that come with the pt100 breakout board.
 ![Parts needed to attach the pt100 temperature probe](/assets/images/pt100_parts.jpg)
 
 To attach the board to the PCB, first place the 8-pin male header into the 8-pin female header.
