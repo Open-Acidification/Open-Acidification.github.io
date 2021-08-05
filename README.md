@@ -4,7 +4,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-### How to build website locally
+## How to build website locally
 
 You may want to update ruby gems before running these commands.
 
@@ -24,13 +24,13 @@ Command to run the website locally.
 bundle exec jekyll serve
 ```
 
-### How to Get Involved
+## How to Get Involved
 
 You can get involved by contributing to one of the projects listed.
 Also, e-mail us at <mailto:openacidificationproject@gmail.com>.
 We will send you a link to join our Microsoft Teams groups that discusses the project.
 
-### Supporting
+## Supporting
 
 If you like Open Acidification Project and want to support our mission, please consider making a donation to support our efforts.
 
