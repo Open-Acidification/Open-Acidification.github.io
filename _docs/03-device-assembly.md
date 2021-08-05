@@ -1,6 +1,8 @@
 ---
 title: Device Assembly
 ---
+## 3D printing of housing
+
 
 ## Prepare Housing
 
