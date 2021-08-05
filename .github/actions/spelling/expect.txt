@@ -2,6 +2,8 @@ arduino
 Bierwagen
 biodiversity
 btn
+Desoldering
+EZO
 Gemfile
 github
 gmail
@@ -31,6 +33,7 @@ Sukachevin
 toml
 url
 utf
+VDD
 whitelist
 wiki
 workflows
