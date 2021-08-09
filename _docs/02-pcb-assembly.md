@@ -81,9 +81,10 @@ title: PCB Assembly
 ![Arduino, 2.5 mm header pins and custom pcb]()
 
 * Arduino Mega
-* 2x 2.5 mm 4 header pins
-* 1x 2.5 mm 2x18 header pins
-* Custom pcb
+* 1x 2.54 mm 4 header pins
+* 1x 2.54 mm 6 header pins
+* 1x 2.54 mm 2x18 header pins
+* Custom PCB
 
 ![Arduino Pins Layed Out](/assets/images/Arduino_Header_Layout.jpg)
 
@@ -141,7 +142,7 @@ There are many methods one could use to attach this header. Here we demonstrate 
 ![The pH carrier header attached to PCB](/assets/images/attached_header.jpg)
 
 ## Attach header for the keypad
-Using the same method you used to attach the pH carrier board female header, solder on the 5-pin male header for the keypad. Make sure that these pins are placed on the opposite face of the PCB as the Arduino header pins.
+Using the same method you used to attach the pH carrier board female header, solder on the 8-pin male header for the keypad. Make sure that these pins are placed on the opposite face of the PCB as the Arduino header pins.
 ![Keypad header](/assets/images/keypad_header.jpg)
 
 ## Potentiometer
@@ -265,7 +266,7 @@ Next, place the 2-relay module onto the PCB by plugging it into the female heade
 ![2-relay module plugged into the PCB](/assets/images/relay_module_attached.jpg)
 
 ### Attaching high voltage wires to relay
-Cut two pieces of stranded 24-gauge wire to a length of approximately 3.5 cm.  
+Cut two pieces of stranded 14-gauge wire to a length of approximately 3.5 cm.  
 ![high voltage sires to relay](/assets/images/wires_cut.jpg)
 
 Strip the insulation of the last 5mm of each end.
