@@ -266,7 +266,7 @@ Next, place the 2-relay module onto the PCB by plugging it into the female heade
 ![2-relay module plugged into the PCB](/assets/images/relay_module_attached.jpg)
 
 ### Attaching high voltage wires to relay
-Cut two pieces of stranded 14-gauge wire to a length of approximately 3.5 cm.  
+Cut two pieces of stranded 14 gauge (AWG) wire to a length of approximately 3.5 cm.  
 ![high voltage sires to relay](/assets/images/wires_cut.jpg)
 
 Strip the insulation of the last 5mm of each end.

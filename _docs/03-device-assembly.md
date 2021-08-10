@@ -26,17 +26,17 @@ Parts needed:
 * 2x 6-pin female-male jumper cables
 * 4x4 matrix keypad
 * Button
-* 2x 20cm solid core X gauge wire
-* 4x XXX hex head bolts
-* 4x XXX bolts
-* XXX alan wrench
-* XXX socket wrench
+* 2x 20cm solid core 22 AWG wire
+* 4x M3 x 0.5 Socket hex head bolts
+* 4x M3 nuts
+* Metric 2.5 alan wrench
+* 5.5 mm socket wrench
 
 ![Parts needed to assemble the faceplate](/assets/images/faceplate_parts.jpg)
 
 ### Attaching reset button
 
-Cut two sections of solid core XX gauge wire to 20cm.  Strip the insulation from ~1cm from each end of each wire.
+Cut two sections of solid core 14 gauge wire to 20cm.  Strip the insulation from ~1cm from each end of each wire.
 
 ![Stripped wired for reset button](/assets/images/reset_wires.jpg)
 
@@ -85,9 +85,60 @@ Then, place bolts through each of the four holes through the LCD and faceplate a
 Finally, place female/male jumper cables on the 6 pins on each end of the header pins on the LCD module.
 ![Jumper cables placed on the LCD module](/assets/images/lcd_jumpers.jpg)
 
+## Preparing electrical outlets
 
-## Install Devices
+Parts & Tools needed:
+* 14 gauge stranded wire (three colors: white, green and red)
+  * one 15 cm section in each color
+  * one 10 cm section in each color
+* 2x panel mount power receptacle
+* Strippers
+* Soldering Iron
+* Helping hands
 
-* Install custom PCB
-  * Attach screw for a/c receptacle
-* Install output power
+First, strip 0.5-1 cm of insulation from the end of each section of wire
+![Tools needed to prepare electrical outlets](/assets/images/outlet_stripped.jpg)
+
+Next, using the helping hands, solder the 15 cm wires to the tabs on one of the power receptacle.  
+![Using helping hands to solder wires to the electrical outlets](/assets/images/outlet_helping_hands.jpg)
+
+The red wire should be attached to the upper left tab (as you are looking at the tabs straight on), sometimes marked "LM", the white to the upper left tab, sometimes marked "W", and the green wire to the lower tab, sometimes also marked "G". The tin the opposite end with the wires with solder.
+![Wires soldered to the electrical outlets](/assets/images/outlet_soldered.jpg)
+
+Repeat this process with the 10 cm wires and the other power receptacle. Set these aside for later.
+![Finished electrical outlets](/assets/images/outlets_finished.jpg)
+
+## Preparing Housing Skirt
+
+Parts and Tools needed:
+* 8x M4 Press-Fit nuts
+* At least 1 M4 bolt
+* 3D printed housing skirt
+* Either 3D printed faceplace or backplate
+
+Place one of the push nuts into the holes in the corners of housing skirt.  It will likely not be possible to sink the push nut into the hole by pushing alone.
+![Initial placement of push nut](/assets/images/pushnut_placement.jpg)
+
+Because it is generally not possible to push in the nuts with one's hands, I generally use a bolt to accomplish this.  To to this, hold the nut in place with one hand, turn the skirt over and one of the countersunk holes in either the faceplate or the backplate over the hole in which the push nut has been place. Then place a bolt through through that hole and thread it into the push nut.
+![Bolt placement to sink push nut into hole](/assets/images/pushnut_screw.jpg)
+![Bolt threaded through push nut](/assets/images/pushnut_threaded.jpg)
+
+Finally, screw the bolt down to pull the push nut into the hole until the exposed face is flush with the plastic. Repeat in the other seven corner of the skirt.
+![Push nut sunk into hole](/assets/images/pushnut_sunk.jpg)
+
+
+## Final Device Assembly
+
+Parts and Tools needed:
+* Prepared housing skirt
+* Prepared electrical receptacles
+* Arduino Mega 2560
+* Arduino Ethernet Shield v1 (Wiznet 5100)
+* Assembled PCB
+* Assembled faceplate
+* backplate
+
+![Parts for final device assembly](/assets/images/final_assembly.jpg)
+
+Plug the Ethernet Shield into the Aruino Mega
+![Ethernet Sheild attached to Arduino Mega](/assets/images/ethernet_shield.jpg)
