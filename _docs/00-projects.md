@@ -11,8 +11,7 @@ Aquarium control unit for regulate tank pH through CO<sub>2</sub> addition and t
 
 Software:
 
-* [Controller Code](https://github.com/Open-Acidification/TankController) - The arduino code for the tank controller unit (soon will be replaced by the Controller Library)
-* [Controller Library](https://github.com/Open-Acidification/TankControllerLib) - The arduino code for the tank controller library
+* [Controller Code](https://github.com/Open-Acidification/TankController) - The arduino code for the tank controller unit
 * [Controller Manager](https://github.com/Open-Acidification/TankControllerManager) - Software for the Tank Controller centralized manager which interfaces with the individual units
 
 Hardware:
