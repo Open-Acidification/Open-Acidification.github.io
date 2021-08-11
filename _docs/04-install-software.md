@@ -6,7 +6,7 @@ title: Software
 
 The following steps are required to install the TankController software.
 
-1. _Install the [Arduino Dekstop IDE](https://www.arduino.cc/en/software)._ 
+1. _Install the [Arduino Desktop IDE](https://www.arduino.cc/en/software)._ 
     1. Download and unzip the appropriate executable for your platform (Linux, macOS, or Windows; on Windows use the zip file rather than the Windows Store option so that you can edit the config in step 2). 
     2. Copy the directory or package to an appropriate place for applications on your platform. 
     3. Follow the [Getting Started Guide](https://www.arduino.cc/en/Guide/ArduinoMega2560) to confirm that you can install and run the "Blink" software.
