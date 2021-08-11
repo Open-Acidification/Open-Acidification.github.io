@@ -55,12 +55,12 @@ Finally, reseat the red button cap onto the pin.
 ![Keypad and faceplate](/assets/images/keypad_faceplate.jpg)
 
 First, peel the paper backing from the keypad.
-![Peeling the paper bacing from the keypad](/assets/images/keypad_peel.jpg)
+![Peeling the paper backing from the keypad](/assets/images/keypad_peel.jpg)
 
 Then, carefully place the female header and flex cable through the slot in the lower portion of the faceplate.
 ![Threading flex cable through the slot in the faceplate](/assets/images/keypad_insert.jpg)
 
-Pull the flex cable through from the back side of the faceplate to take up the clas in the cable with one hand while placing the keypad square (so the bottom edge is parallel with the bottom edge of the faceplate) with the other hand. Once the keypad is placed down on the faceplate, press down firmly on all parts of the keypad to securely adhere the keypad to the faceplate.
+Pull the flex cable through from the back side of the faceplate to take up the slack in the cable with one hand while placing the keypad square (so the bottom edge is parallel with the bottom edge of the faceplate) with the other hand. Once the keypad is placed down on the faceplate, press down firmly on all parts of the keypad to securely adhere the keypad to the faceplate.
 ![Placing the keypad onto the faceplate](/assets/images/keypad_stick.jpg)
 
 ### Attach LCD screen to faceplate
@@ -105,7 +105,7 @@ Parts and Tools needed:
 * 8x M4 Press-Fit nuts
 * At least 1 M4 bolt
 * 3D printed housing skirt
-* Either 3D printed faceplace or backplate
+* Either 3D printed faceplate or backplate
 
 Place one of the push nuts into the holes in the corners of housing skirt.  It will likely not be possible to sink the push nut into the hole by pushing alone.
 ![Initial placement of push nut](/assets/images/pushnut_placement.jpg)
@@ -124,7 +124,7 @@ Parts and Tools needed:
 * Prepared housing skirt
 * Prepared electrical receptacles
 * Arduino Mega 2560
-* Arduino Ethernet Shield v1 (Wiznet 5100)
+* Arduino Ethernet Shield v1 (WIZnet W5100)
 * Assembled PCB
 * Assembled faceplate
 * backplate
@@ -142,7 +142,7 @@ Place the custom PCB into the housing skirt, making sure the three-prong AC powe
 ![AC Power receptacle placement](/assets/images/device_electrical_input_placement.jpg)
 ![BNC plug and 3.5 mm jack placement](/assets/images/device_pH_placement.jpg)
 
-Next, place an M3 x 0.5 Socket hex head bolt through the small holes adjacent to the AC power receptacle. Using pliers (it is difficult to use a socket wrench in this posisiton), place a M3 nut inside the device housing onto end of the bolt.  Using a metric 2.5 Allen wrench tighten the bolt onto the nut.  The pictures below show these bolts being place after the AC outlets have been places and wired, but the task of placing the bolts is much easier before installing the AC outlets.
+Next, place an M3 x 0.5 Socket hex head bolt through the small holes adjacent to the AC power receptacle. Using pliers (it is difficult to use a socket wrench in this position), place a M3 nut inside the device housing onto end of the bolt.  Using a metric 2.5 Allen wrench tighten the bolt onto the nut.  The pictures below show these bolts being place after the AC outlets have been places and wired, but the task of placing the bolts is much easier before installing the AC outlets.
 
 ![Tightening the bolts to hold the AC receptacle](/assets/images/AC_bolt_tighten.jpg)
 ![AC receptacle bolts shown in place](/assets/images/AC_bolt_finished.jpg)
@@ -156,18 +156,18 @@ Next, attach the ends of each red wires into the corresponding screw terminals o
 ![Attaching AC outlet wires to the 2-relay module](/assets/images/live_wire_installation.jpg)
 ![AC outlet wires attached to the 2-relay module](/assets/images/live_wires_attached.jpg)
 
-### Installation of Arduino mega and ethernet shield to device
+### Installation of Arduino Mega and ethernet shield to device
 
-Plug the Ethernet Shield into the Aruino Mega
+Plug the Ethernet Shield into the Arduino Mega
 ![Ethernet Shield attached to Arduino Mega](/assets/images/ethernet_shield.jpg)
 
-Installation of the Arduino Mega/Ethernet Sheild into the housing is most easily accomplished by placing the USB and ethernet outlets on the boards into their respective openings in the housing skirt by placing them at an angle from the backside of the deviReset button wire ce (the side with the buck converters, real time clock and PT100 module on the PCB).
+Installation of the Arduino Mega/Ethernet Shield into the housing is most easily accomplished by placing the USB and ethernet outlets on the boards into their respective openings in the housing skirt by placing them at an angle from the backside of the deviReset button wire ce (the side with the buck converters, real time clock and PT100 module on the PCB).
 
 ![Installing the Arduino Mega](/assets/images/arduino_placement.jpg)
 
 Align the female header pins on the Arduino to align with the male header pins on the PCB, and push them together.  
 
-![The Arduino mega installed](/assets/images/arduino_installed.jpg)
+![The Arduino Mega installed](/assets/images/arduino_installed.jpg)
 ![The placement of arduino USB and ethernet ports when installed](/assets/images/arduino_outlets.jpg)
 
 ### Installation of AC outlet ground and neutral wires and Arduino VIN wire
