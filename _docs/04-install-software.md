@@ -38,6 +38,7 @@ mega.menu.printf.minimal.compiler.c.elf.extra_flags=-Wl,-u,vfprintf -lprintf_min
 4. _Download TankController._
     1. Download a [zip](https://github.com/Open-Acidification/TankController/releases) of the [TankController](https://github.com/Open-Acidification/TankController) software.
     2. From the Arduino IDE, follow the instructions on [Importing a .zip Library](https://www.arduino.cc/en/guide/libraries) to install the library.
+    3. Rename the directory to `TankControllerLib`.
 
 5. _Install TankController._
     1. In the Arduino Desktop IDE, open `TankController/examples/TankController.ino`.
