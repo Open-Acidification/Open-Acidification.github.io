@@ -6,8 +6,7 @@ Your help is essential for making it great.
 
 ## Submitting a pull request
 
-[Pull Requests][pulls] are used 
-for adding new code and documents to the repository, or editing the existing code or documentation.
+[Pull Requests][pulls] are used for adding new code and documents to the repository, or editing the existing code or documentation.
 
 **With write access**
 

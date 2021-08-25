@@ -32,7 +32,10 @@ title: PCB Assembly
 
   ![Remaining solder in through holes](/assets/images/solder_remnant.jpg)
 
-3. Next, remove solder from the through-holes by placing the aperture of the solder sucker directly over a through hole, while simultaneously heating the solder in the through hole with the soldering iron. When the solder liquefies, fire the solder sucker to remove the solder from the hole.  You may need to repeat this step multiple times per through-hole to completely clear the hole of solder.  Be careful not to leave the soldering iron on the through-hole too long and cause the pad to separate form the PCB.  
+3. Next, remove solder from the through-holes by placing the aperture of the solder sucker directly over a through hole, while simultaneously heating the solder in the through hole with the soldering iron.
+  When the solder liquefies, fire the solder sucker to remove the solder from the hole.
+  You may need to repeat this step multiple times per through-hole to completely clear the hole of solder.
+  Be careful not to leave the soldering iron on the through-hole too long and cause the pad to separate form the PCB.  
 
   ![Clearing through-holes of solder](/assets/images/solder_sucking.jpg)
 
@@ -74,8 +77,6 @@ title: PCB Assembly
 
 ![Finished buck converter](/assets/images/finished_buck_converter.jpg)
 
-
-
 ## Soldering Arduino Header Pins
 
 ![Arduino, 2.5 mm header pins and custom pcb]()
@@ -93,6 +94,7 @@ title: PCB Assembly
 ![Arduino Pins Placed](/assets/images/Arduino_header_pins_placed.jpg)
 
 ![Place PCB on header pins]()
+
 
 ![PCB placed on the Arduino header pins](/assets/images/PCB_on_arduino_header_pins.jpg)
 
@@ -159,12 +161,26 @@ Solder the 3.5mm PT100 jack onto the same face of the PCB as the Arduino header 
 Solder on a 5-position female header on the Real Time Clock location on the PCB on the same face as the Arduino header pins.
 ![Real Time Clock Header](/assets/images/RTC_header.jpg)
 
+Solder on a 5-position female header on the Real Time Clock location on the PCB on the same face as the Arduino header pins.
+
+![Real Time Clock Header](/assets/images/RTC_header.jpg)
+
 ## LCD Header
 Solder on a 16-position female header onto the LCD1 position on the opposite face of the PCB from the Arduino header pins.
 ![LCD Header](/assets/images/LCD_Header.jpg)
 
+Solder on a 16-position female header onto the LCD1 position on the opposite face of the PCB from the Arduino header pins.
+
+![LCD Header](/assets/images/LCD_Header.jpg)
+
 ## Power screw terminals
 Solder on the large screw terminals onto the PCB onto the face opposite the Arduino header pins in the location labeled "Power_Screws1". The openings on the side of the terminals (where the wires will be fed) should be facing toward the "AC Receptacle" location on the PCB.
+![Power screw terminal 1](/assets/images/screw_terminal1.jpg)
+
+![Power screw terminal 2](/assets/images/screw_terminal2.jpg)
+
+Solder on the large screw terminals onto the PCB onto the face opposite the Arduino header pins in the location labeled "Power_Screws1". The openings on the side of the terminals (where the wires will be fed) should be facing toward the "AC Receptacle" location on the PCB.
+
 ![Power screw terminal 1](/assets/images/screw_terminal1.jpg)
 
 ![Power screw terminal 2](/assets/images/screw_terminal2.jpg)
@@ -179,6 +195,20 @@ Since these pins will be on the opposite face as the Arduino header pins, and th
 ![Jumper pin soldered](/assets/images/jumpers3.jpg)
 
 Once they are soldered on, place jumpers between the center pin and the "Arduino" pin on each header.
+![Jumper positions](/assets/images/jumpers4.jpg)
+
+Solder 5 3-pin male headers onto the positions labeled "LCD POT", "LCD RES", "LCD VDD", "RTC", and "PT100" inside the Arduino header pins, but on the opposite face of the PCB rom the header pins.
+
+![Jumper pin positions](/assets/images/jumpers1.jpg)
+
+Since these pins will be on the opposite face as the Arduino header pins, and therefore you will be soldering on the side with the long Arduino header terminals, you will need to use a rather steep angle with your soldering iron.
+
+![Jumper pin soldering](/assets/images/jumpers2.jpg)
+
+![Jumper pin soldered](/assets/images/jumpers3.jpg)
+
+Once they are soldered on, place jumpers between the center pin and the "Arduino" pin on each header.
+
 ![Jumper positions](/assets/images/jumpers4.jpg)
 
 ## AC Power receptacle

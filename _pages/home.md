@@ -6,6 +6,7 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_tanks_in_a_row.jpg
+  overlay_filter: 0.4
   actions:
     - label: "See Projects"
       url: "/docs/00-projects/"

@@ -1,0 +1,53 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "prestoncarman",
+      "name": "Preston Carman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3517157?v=4",
+      "profile": "https://github.com/prestoncarman",
+      "contributions": [
+        "code",
+        "doc",
+        "bug"
+      ]
+    },
+    {
+      "login": "3dCameron",
+      "name": "Cameron Bierwagen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28907170?v=4",
+      "profile": "https://www.linkedin.com/in/cameron-bierwagen",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "KirtOnthank",
+      "name": "Kirt Onthank",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48142545?v=4",
+      "profile": "https://gab.wallawalla.edu/~kirt.onthank/index.html",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jgfoster",
+      "name": "James Foster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1577872?v=4",
+      "profile": "http://programminggems.wordpress.com/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Open-Acidification.github.io",
+  "projectOwner": "Open-Acidification",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
