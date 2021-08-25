@@ -21,8 +21,10 @@ docs:
         url: /docs/03-device-assembly/
       - title: "Install Software"
         url: /docs/04-install-software/
+      - title: "Configure Software"
+        url: /docs/05-configure-software/
       - title: "Operations"
-        url: /docs/05-operations/
+        url: /docs/06-operations/
   - title: Tank Controller Manager
     children:
       - title: "Quick-Start Guide"
