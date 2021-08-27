@@ -23,6 +23,7 @@ Linux
 mailto
 markdownlint
 Mega
+mega
 Microsoft
 mkd
 mkdn

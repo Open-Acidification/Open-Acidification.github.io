@@ -20,7 +20,7 @@ title: PCB Assembly
 
 ![2-Relay Module Header Pins partially removed](/assets/images/Relay_remove_partial.jpg)
 
-  * Tip - If it is difficult to remove the plastic base, cut the base so it only is connect to a single pin. Then pull it off.
+* Tip - If it is difficult to remove the plastic base, cut the base so it only is connect to a single pin. Then pull it off.
 
 ![2-relay module without rubber base](/assets/images/plastic_retainer_removed.jpg)
 
@@ -224,11 +224,22 @@ Then I can solder on that pin with that solder chunk.
 Then I can easily solder the remaining pins.
 
 ## Attach buck converters
-Now place the buck converters onto the PCB on the same face as the Arduino header pins.  The through holes for these converters are slightly closer together on the PCB than on the converters.  This is intentional so that you can place them and have tension keep them in place while you test the units before soldering them on.  Make sure that you place the correct buck converter in the correct place on the PCB. The positions are marked on the PCB. The 5V buck converter should have a 1000 &mu;F capacitor on the output end, the 9V should have a 470 &mu;F capacitor in the same position.
+Now place the buck converters onto the PCB on the same face as the Arduino header pins.
+The through holes for these converters are slightly closer together on the PCB than on the converters.
+This is intentional so that you can place them and have tension keep them in place while you test the units before soldering them on.  Make sure that you place the correct buck converter in the correct place on the PCB.
+The positions are marked on the PCB.
+The 5V buck converter should have a 1000 &mu;F capacitor on the output end, the 9V should have a 470 &mu;F capacitor in the same position.
 ![Placing buck converters on PCB](/assets/images/buck_placement.jpg)
 
 ### Testing buck converters before soldering
-Before soldering the buck converters to the PCB you should test the outputs to make sure 1) that you placed the buck converters in the correct positions and 2) that the converters are not defective. To do this we need to plug the board into an outlet, which must be done very carefully to prevent giving yourself a very dangerous shock.  To do this safely, first secure the PCB so that it remains in place while plugged in. I suggest using a PCB holder for this.  Then, plug the power cable into the PCB.  Only then plug the power cable into a wall outlet. Once the PCB is plugged into the wall, DO NOT TOUCH IT except with the multimeter.  If you need to reposition the board, unplug it from the wall before doing so.  
+Before soldering the buck converters to the PCB you should test the outputs to make sure 1) that you placed the buck converters in the correct positions and 2) that the converters are not defective.
+To do this we need to plug the board into an outlet, which must be done very carefully to prevent giving yourself a very dangerous shock.
+To do this safely, first secure the PCB so that it remains in place while plugged in.
+I suggest using a PCB holder for this.
+Then, plug the power cable into the PCB.
+Only then plug the power cable into a wall outlet.
+Once the PCB is plugged into the wall, DO NOT TOUCH IT except with the multimeter.
+If you need to reposition the board, unplug it from the wall before doing so.  
 
 Once you have the PCB secured and plugged in, use a multimeter to check the voltage output on both the 5V and the 9V buck converters. This is most easily done on the pins protruding through the PCB on the opposite face of the buck converters.
 ![Checking voltage of buck converters](/assets/images/check_voltage_buck.jpg)

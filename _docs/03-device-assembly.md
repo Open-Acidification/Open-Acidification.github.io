@@ -142,16 +142,26 @@ Place the custom PCB into the housing skirt, making sure the three-prong AC powe
 ![AC Power receptacle placement](/assets/images/device_electrical_input_placement.jpg)
 ![BNC plug and 3.5 mm jack placement](/assets/images/device_pH_placement.jpg)
 
-Next, place an M3 x 0.5 Socket hex head bolt through the small holes adjacent to the AC power receptacle. Using pliers (it is difficult to use a socket wrench in this position), place a M3 nut inside the device housing onto end of the bolt.  Using a metric 2.5 Allen wrench tighten the bolt onto the nut.  The pictures below show these bolts being place after the AC outlets have been places and wired, but the task of placing the bolts is much easier before installing the AC outlets.
+Next, place an M3 x 0.5 Socket hex head bolt through the small holes adjacent to the AC power receptacle.
+Using pliers (it is difficult to use a socket wrench in this position), place a M3 nut inside the device housing onto end of the bolt.
+Using a metric 2.5 Allen wrench tighten the bolt onto the nut.
+The pictures below show these bolts being place after the AC outlets have been places and wired, but the task of placing the bolts is much easier before installing the AC outlets.
 
 ![Tightening the bolts to hold the AC receptacle](/assets/images/AC_bolt_tighten.jpg)
 ![AC receptacle bolts shown in place](/assets/images/AC_bolt_finished.jpg)
 
 ### Installation of AC outlet live wires
 
-Install the prepared AC outlets into the housing by pushing them, wires first, through the two square openings in the skirt from the outside of the housing.  Push them through until they click into place.  The AC outlet with the longer (15cm) wires should be placed in the opening farther away from the custom PCB.  
+Install the prepared AC outlets into the housing by pushing them, wires first, through the two square openings in the skirt from the outside of the housing.
+Push them through until they click into place.
+The AC outlet with the longer (15cm) wires should be placed in the opening farther away from the custom PCB.  
 
-Next, attach the ends of each red wires into the corresponding screw terminals on the 2-relay module. Each relay (the large blue cubes on the module) has three screw terminals. The short red wire to the PCB should already be attached to the center screw terminal of each relay. The red wires from the AC outlets should be attached to the left terminal for each of the relays, with the left AC outlet being attached to the left relay.  This works best if the tinned end of the wires are bent in a 90-degree angle to the rest wire before attempting to connect to the relay module. After the wire has been placed into the correct terminal, tighten the screw on the terminal to secure the wire.  Pull gently on the wire to make sure it does not easily come out of the terminal.
+Next, attach the ends of each red wires into the corresponding screw terminals on the 2-relay module.
+Each relay (the large blue cubes on the module) has three screw terminals.
+The short red wire to the PCB should already be attached to the center screw terminal of each relay.
+The red wires from the AC outlets should be attached to the left terminal for each of the relays, with the left AC outlet being attached to the left relay.
+This works best if the tinned end of the wires are bent in a 90-degree angle to the rest wire before attempting to connect to the relay module. After the wire has been placed into the correct terminal, tighten the screw on the terminal to secure the wire.
+Pull gently on the wire to make sure it does not easily come out of the terminal.
 
 ![Attaching AC outlet wires to the 2-relay module](/assets/images/live_wire_installation.jpg)
 ![AC outlet wires attached to the 2-relay module](/assets/images/live_wires_attached.jpg)
@@ -172,7 +182,9 @@ Align the female header pins on the Arduino to align with the male header pins o
 
 ### Installation of AC outlet ground and neutral wires and Arduino VIN wire
 
-Next, attach the green and white wires of the AC outlet to the large green screw terminal block on the PCB. The green wires should be attached to terminals labeled 'AC-E' and the white wires should be attached to the terminals labeled 'AC-N'. Similar to how the red wires were attached to the 2-relay module screw terminal block, this works best if the tinned ends of the wires are first bent to a 90-degree angle to the wire.  
+Next, attach the green and white wires of the AC outlet to the large green screw terminal block on the PCB.
+The green wires should be attached to terminals labeled 'AC-E' and the white wires should be attached to the terminals labeled 'AC-N'.
+Similar to how the red wires were attached to the 2-relay module screw terminal block, this works best if the tinned ends of the wires are first bent to a 90-degree angle to the wire.
 
 ![Installing first AC outlet wire to PCB terminal block](/assets/images/AC_outlet_earth.jpg)
 ![All AC outlet wires connected to PCB terminal block](/assets/images/AC_outlet_wires_installed.jpg)
@@ -202,7 +214,7 @@ Second, put one of the wires from the reset button into a ground header on the e
 
 ![Reset button wire attachment](/assets/images/faceplate_attach_reset.jpg)
 
-Third, attach the LCD jumper cables to the LCD header on the PCB.  Only the outside 6 LCB pins should have attached wires, and these wires should go in the 6 outside-most headers, in the same order they occur on the LCD.
+Third, attach the LCD jumper cables to the LCD header on the PCB.  Only the outside 6 LCD pins should have attached wires, and these wires should go in the 6 outside-most headers, in the same order they occur on the LCD.
 
 ![LCD jumper wire attachment](/assets/images/faceplate_attach_lcd.jpg)
 
