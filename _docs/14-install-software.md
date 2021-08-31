@@ -45,4 +45,3 @@ mega.menu.printf.minimal.compiler.c.elf.extra_flags=-Wl,-u,vfprintf -lprintf_min
     2. If you have a PushingBox Identifier, add it where indicated (line 7).
     3. Click the "Upload" button (a right-facing arrow) or select the "Sketch / Upload" menu.
     4. If you do not have an Ethernet cable attached you can shorten the startup time by pressing any key to skip the DHCP request; release the key when you see the idle screen (with current values and targets for pH and temperature).
-

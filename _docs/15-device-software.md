@@ -1,14 +1,12 @@
 ---
-title: Configure Software
+title: Device Software
 ---
 
-## Software Configuration
-
-### Menus
+## Software Menus
 
 Because of the limitations of our input and output devices (a 4x4 keypad and a 16x2 LCD), the user interface is designed to be relatively simple. The initial (or _idle_) screen shows the current values and targets for pH and temperature. From this screen you can select a menu to view settings or a menu to change settings.
 
-#### Top-level Menu
+### Top-level Menu
 
 The idle screen is the first of three top-level screens:
 
@@ -32,7 +30,7 @@ Change settings
 
 From here pressing '2' will go "up" to the View Settings screen and pressing '8' will take you "down" and loop back to the top to show the idle screen.
 
-#### View Settings Menu
+### View Settings Menu
 
 When on a menu option you can select it by pressing '6' (right). In the case of the "View settings" menu, you will be taken to a new sequence of menus:
 
@@ -52,7 +50,7 @@ Selecting a menu item (6>) will take you to the state where you are viewing the 
 In most cases you can exit from this state by pressing any key.
 If you don't press a key then after a minute the device returns to the idle screen.
 
-#### Change Settings Menu
+### Change Settings Menu
 
 You can select the Change Settings menu by pressing '6' (right) and be taken to a new set of menu options:
 

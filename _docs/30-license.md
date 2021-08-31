@@ -1,7 +1,7 @@
 ---
 title: "License"
 permalink: /docs/license/
-excerpt: "License for Open Acidification Project."
+excerpt: "License for Open Acidification Project Documentation."
 ---
 
 The MIT License (MIT)

@@ -13,26 +13,21 @@ docs:
         url: /docs/00-projects/
   - title: Tank Controller
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/01-getting-started/
+      - title: "Overview"
+        url: /docs/11-overview/
       - title: "PCB Assembly"
-        url: /docs/02-pcb-assembly/
+        url: /docs/12-pcb-assembly/
       - title: "Device Assembly"
-        url: /docs/03-device-assembly/
+        url: /docs/13-device-assembly/
       - title: "Install Software"
-        url: /docs/04-install-software/
-      - title: "Configure Software"
-        url: /docs/05-configure-software/
-      - title: "Operations"
-        url: /docs/06-operations/
-  - title: Tank Controller Manager
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/11-getting-started/
+        url: /docs/14-install-software/
+      - title: "Device Software"
+        url: /docs/15-device-software/
+
   - title: Alkalinity Titrator
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/21-getting-started/
+      - title: "Overview"
+        url: /docs/21-overview/
   - title: META
     children:
       - title: "License"

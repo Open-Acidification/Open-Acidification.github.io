@@ -79,6 +79,7 @@ Finally, place female/male jumper cables on the 6 pins on each end of the header
 ## Preparing electrical outlets
 
 Parts & Tools needed:
+
 * 14 gauge stranded wire (three colors: white, green and red)
   * one 15 cm section in each color
   * one 10 cm section in each color
@@ -102,6 +103,7 @@ Repeat this process with the 10 cm wires and the other AC outlet. Set these asid
 ## Preparing Housing Skirt
 
 Parts and Tools needed:
+
 * 8x M4 Press-Fit nuts
 * At least 1 M4 bolt
 * 3D printed housing skirt
@@ -117,10 +119,10 @@ Because it is generally not possible to push in the nuts with one's hands, I gen
 Finally, screw the bolt down to pull the push nut into the hole until the exposed face is flush with the plastic. Repeat in the other seven corner of the skirt.
 ![Push nut sunk into hole](/assets/images/pushnut_sunk.jpg)
 
-
 ## Final Device Assembly
 
 Parts and Tools needed:
+
 * Prepared housing skirt
 * Prepared electrical receptacles
 * Arduino Mega 2560

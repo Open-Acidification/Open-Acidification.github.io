@@ -9,26 +9,9 @@ Each project has a few supporting projects.
 
 Aquarium control unit for regulate tank pH through CO<sub>2</sub> addition and temperature.
 
-Software:
-
-* [Controller Code](https://github.com/Open-Acidification/TankController) - The arduino code for the tank controller unit
-* [Controller Manager](https://github.com/Open-Acidification/TankControllerManager) - Software for the Tank Controller centralized manager which interfaces with the individual units
-
-Hardware:
-
-* [KiCad](https://github.com/Open-Acidification/TankController-KiCad) - KiCad files for PCB design for Open Acidification pH-stat unit
-* [Housing](https://github.com/Open-Acidification/TankController-Housing) - 3D models to print housing for pH-stat unit
-
 ### Alkalinity Titrator
 
 An apparatus to determine total alkalinity in sea water using an open-cell titration.
-
-* [Source Code](https://github.com/Open-Acidification/AlkalinityTitrator)
-* [KiCad](https://github.com/Open-Acidification/AlkalinityTitrator-KiCad) - KiCad files for PCB design
-
-### Other Projects
-
-* [Open Acidification Project](https://github.com/Open-Acidification/Open-Acidification.github.io) - Project documentation of all related projects.
 
 ## Contributions
 
@@ -37,8 +20,10 @@ Since then others have contributed to the project, here are a few highlights fro
 
 ### Student Projects
 
+* The Tank Controller's micro controller was refactored for testing by [Eliam Calvo](https://github.com/eucalvo) adn [Wesley Duerksen](https://github.com/Kavikick) in 2021.
+* The Alkalinity Titrator's second round of development was done by [Konrad McClure](https://github.com/KonradMcClure) and [Noah Griffith](https://github.com/Noah-Griffith) in 2021.
 * The Tank Controller's micro controller was updated to support API calls by [Matthew Ma](https://github.com/PlasmaIntec) in 2020.
-* The Tank Controller's server was initial creation was done by [Cameron Bierwagen](https://github.com/3dCameron) in 2020.
+* The Tank Controller Manager was initial created by [Cameron Bierwagen](https://github.com/3dCameron) in 2020.
 * The Alkalinity Titrator's initial source code was developed by [Kaden Sukachevin](https://github.com/kadensu) in 2020.
 
 ## How to Get Involved
@@ -49,4 +34,4 @@ We will send you a link to join our Microsoft Teams groups that discusses the pr
 
 ### Availability
 
-All source code is available under the [MIT License](https://opensource.org/licenses/MIT) from <https://github.com/Open-Acidification> and all the hardware designs are available under the [CERN Open Hardware Licence Version 2 - Permissive](https://opensource.org/CERN-OHL-P).
+All source code and hardware is available under the open source licenses at <https://github.com/Open-Acidification>.
