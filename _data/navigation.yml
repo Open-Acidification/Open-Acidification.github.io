@@ -23,7 +23,6 @@ docs:
         url: /docs/14-install-software/
       - title: "Device Software"
         url: /docs/15-device-software/
-
   - title: Alkalinity Titrator
     children:
       - title: "Overview"
