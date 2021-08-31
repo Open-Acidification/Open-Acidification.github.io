@@ -20,7 +20,7 @@ Since then others have contributed to the project, here are a few highlights fro
 
 ### Student Projects
 
-* The Tank Controller's micro controller was refactored for testing by [Eliam Calvo](https://github.com/eucalvo) adn [Wesley Duerksen](https://github.com/Kavikick) in 2021.
+* The Tank Controller's micro controller was refactored for testing by [Eliam Calvo](https://github.com/eucalvo) and [Wesley Duerksen](https://github.com/Kavikick) in 2021.
 * The Alkalinity Titrator's second round of development was done by [Konrad McClure](https://github.com/KonradMcClure) and [Noah Griffith](https://github.com/Noah-Griffith) in 2021.
 * The Tank Controller's micro controller was updated to support API calls by [Matthew Ma](https://github.com/PlasmaIntec) in 2020.
 * The Tank Controller Manager was initial created by [Cameron Bierwagen](https://github.com/3dCameron) in 2020.

@@ -3,10 +3,13 @@ avr
 Bierwagen
 biodiversity
 btn
+Clure
 config
 contributorsrc
 Desoldering
 DHCP
+Duerksen
+Eliam
 emoji
 EZO
 Gemfile
@@ -44,6 +47,7 @@ printf
 pushnut
 README
 Realtime
+refactored
 sitemap
 src
 Sukachevin
