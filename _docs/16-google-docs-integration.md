@@ -43,6 +43,7 @@ Now, lets test if the script is working. Paste the URL you just saved with "?tan
 Does "ok" show up in the browser?
 If so, check your Tank Controller Monitor spreadsheet.  
 You should see the data show up under "Raw_Data" tab that report Tank 1 with a temperature of 23 and a pH of 4.555. The data should also appear for Tank 1 under the Dashboard tab.
+![Successul Tank Controller Monitor update](/assets/images/Tank_Control_Monitor_success.png)
 
 ## Setting up PushingBox
 Navigate to https://www.pushingbox.com/ and click "Login with Google" in the upper right hand corner. Complete the login with your Google login credentials
@@ -52,8 +53,20 @@ Now click on "Select this service" next to "Custom URL".  It will be at or near 
 Give this service a name in the top box labeled "Name of your CustomURL configuration:".  It doesn't really matter what the name is, as long as you can recognize it.
 Now, paste google script macro "Current web app URL" into "Root URL" (without the "?tankid=1&tempData=23&pHdata=4.555" you added for testing).
 Leave method as GET and click the "Submit" button.
+![Adding new service in PushingBox](/assets/images/pushingbox_new_service.png)
+
+
 Now click on "My Scenarios", then in the box under "Create a scenario or add a device" put in some name of your choosing (I use "Tank ID, Temp and pH Push"), and click "Add".
 Now, click the "Add an Action" button.  Then, click "Add and action to this service" next to the service you made in the previous step.
 In the box under "Data" copy and paste in the text: "?tankid=$tankid$&tempData=$tempData$&pHdata=$pHdata$" (without the quotes). The click "Submit".
+![Adding new scenario in PushingBox](/assets/images/pushingbox_new_scenario.png)
+
 Now, copy DeviceID that should be right under the scenario name. It should start with "v".
+![Finding the PushingBox DeviceID](/assets/images/pushingbox_DeviceID.png)
+
 Now, copy that DeviceID into Tank Controller Arduino code on line 7 where it says PushingBoxIdentifier. You must have the quotes around the DeviceID.
+![Inserting the PushingBox DeviceID into the Arduino code](/assets/images/pushingbox_arduino_code.png)
+
+Once you flash this code onto your Tank Controller Arduino, it should start to upload temperature and pH data to the Google sheet at the interval at which your Google Sheet interval is set for in the device.
+
+## Using the Tank Controller monitor sheet
