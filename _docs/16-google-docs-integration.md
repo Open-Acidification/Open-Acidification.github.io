@@ -70,3 +70,5 @@ Now, copy that DeviceID into Tank Controller Arduino code on line 7 where it say
 Once you flash this code onto your Tank Controller Arduino, it should start to upload temperature and pH data to the Google sheet at the interval at which your Google Sheet interval is set for in the device.
 
 ## Using the Tank Controller monitor sheet
+Each Tank Controller will, if setup to write to Google Sheets, periodically write tank ID, current temperature and pH into the sheet labeled "Raw_Data" in the Tank Control Monitor (tabs at the bottom of the page).  From there, all entries in the Raw_Data sheet for a given tank ID will be pulled into that Tank's individual sheet. A summary of all of the tanks reporting to the Tank Control monitor will appear in the "Dashboard" sheet.
+![View of the Tank Controller Monitor dashboard](/assets/images/dashboard.png)
