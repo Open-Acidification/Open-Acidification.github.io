@@ -70,5 +70,48 @@ Now, copy that DeviceID into Tank Controller Arduino code on line 7 where it say
 Once you flash this code onto your Tank Controller Arduino, it should start to upload temperature and pH data to the Google sheet at the interval at which your Google Sheet interval is set for in the device.
 
 ## Using the Tank Controller monitor sheet
-Each Tank Controller will, if setup to write to Google Sheets, periodically write tank ID, current temperature and pH into the sheet labeled "Raw_Data" in the Tank Control Monitor (tabs at the bottom of the page).  From there, all entries in the Raw_Data sheet for a given tank ID will be pulled into that Tank's individual sheet. A summary of all of the tanks reporting to the Tank Control monitor will appear in the "Dashboard" sheet.
+Each Tank Controller will, if setup to write to Google Sheets, periodically write tank ID, current temperature and pH into the sheet labeled "Raw_Data" in the Tank Control Monitor (tabs at the bottom of the page).  
+From there, all entries in the Raw_Data sheet for a given tank ID will be pulled into that Tank's individual sheet.
+A summary of all of the tanks reporting to the Tank Control monitor will appear in the "Dashboard" sheet.
 ![View of the Tank Controller Monitor dashboard](/assets/images/dashboard.png)
+***(This is simulated, not real tank monitoring data)***
+
+In the "Dashboard" sheet, each row holds data from a specific Tank ID (and therefore an individual Tank Controller if each have been assigned a different Tank ID).
+The first column give the Tank ID #.
+The second column, titled **Last Update** gives the time when the last update was sent from the Tank Controller.
+The third column gives the time that has elapsed since the last data was sent.
+The fourth and fifth columns give the most recent temperature and pH readings, respectively, sent by the Tank Controller.
+
+### Spark-line graphs
+The sixth and seventh columns contain spark-line graphs of the recent trends in temperature and pH.
+The midpoint of these graphs is set by the "temp setpoint" and "pH setpoint" columns (columns H and I) in the given row.
+The y-axis range is set for all graphs by the "temp spark +-" and the "ph spark +-" (columns J and K).
+By default the spark-line graphs show the last 70 data points. If the device updates occur every 20 minutes, this means the last 24 hours are displayed in the spark-line.
+You can change update interval on the Tank Controller itself.
+You can change the number of past data points displayed on the sparkline in the sheets or the individual tank controllers.  
+Navigate to one of those sheets, and select cell "H2". Here you should see a function that looks like this:
+
+```text
+=SORT(QUERY(A2:D,"order by A desc limit 70"),1,1)
+```
+Simply replace **70** with the number of data points you would like displayed and return to the "Dashboard" sheet.
+
+### Color Formating
+I have found it helpful to have conditional formatting for the columns displaying Time since update, temeprature and pH.
+I have them set to be green when values are close to the expected value, and turn more red when the values deviate from the expected.
+It allows me to quickly scan the data and see what tanks are "misbehaving".  
+The template Tank Controller Monitor has this conditional formatting activated, but you will likely want to change the values to reflect your specific experiments.
+To do this, select a cell you would like to change the formatting for.
+Next, Select "Format" in the menu, then "Conditional formatting" from near the end of the list.
+A panel will appear at the right hand side of the screen, and there should be "Color scale" shown as one of the choices. Double click it.
+Next, a panel should appear that is titled "Conditional format rules".  
+
+![Conditional formatting panel in Google Sheets](/assets/images/conditional_formatting.png)
+
+You should see on the panel a section for the "Minpoint", one for the "Midpoint" and one for the "Maxpoint".  
+In each section, there should be a dropdown menu in which "Number" is selected, followed by a value, follow by a color.
+The midpoint is set to the pH setpoint.  At this value, the color of the cell will be completely green.
+The minpoint and the maxpoint (I usually set these to +- 0.1 above or below the setpoint for pH and +- 1 for temperature) are the values for which the color will be completely red.
+Everything in between these values (midpoint and the minpoint/maxpoint) the color of the cell will be a gradient between green and red.
+Therefore, even with deviations of the current by a small fraction of that difference the color will be shaded and the deviation will be visibly apparent.
+You can set the midpoints/minpoints/maxpoints for each cell to any value that is useful to you.
