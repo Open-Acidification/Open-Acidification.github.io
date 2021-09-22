@@ -43,7 +43,7 @@ Now, lets test if the script is working. Paste the URL you just saved with "?tan
 Does "ok" show up in the browser?
 If so, check your Tank Controller Monitor spreadsheet.  
 You should see the data show up under "Raw_Data" tab that report Tank 1 with a temperature of 23 and a pH of 4.555. The data should also appear for Tank 1 under the Dashboard tab.
-![Successul Tank Controller Monitor update](/assets/images/Tank_Control_Monitor_success.png)
+![Successful Tank Controller Monitor update](/assets/images/Tank_Control_Monitor_success.png)
 
 ## Setting up PushingBox
 Navigate to https://www.pushingbox.com/ and click "Login with Google" in the upper right hand corner. Complete the login with your Google login credentials
@@ -88,7 +88,7 @@ The midpoint of these graphs is set by the "temp setpoint" and "pH setpoint" col
 The y-axis range is set for all graphs by the "temp spark +-" and the "ph spark +-" (columns J and K).
 By default the spark-line graphs show the last 70 data points. If the device updates occur every 20 minutes, this means the last 24 hours are displayed in the spark-line.
 You can change update interval on the Tank Controller itself.
-You can change the number of past data points displayed on the sparkline in the sheets or the individual tank controllers.  
+You can change the number of past data points displayed on the spark-line in the sheets or the individual tank controllers.  
 Navigate to one of those sheets, and select cell "H2". Here you should see a function that looks like this:
 
 ```text
@@ -97,7 +97,7 @@ Navigate to one of those sheets, and select cell "H2". Here you should see a fun
 Simply replace **70** with the number of data points you would like displayed and return to the "Dashboard" sheet.
 
 ### Color Formating
-I have found it helpful to have conditional formatting for the columns displaying Time since update, temeprature and pH.
+I have found it helpful to have conditional formatting for the columns displaying Time since update, temperature and pH.
 I have them set to be green when values are close to the expected value, and turn more red when the values deviate from the expected.
 It allows me to quickly scan the data and see what tanks are "misbehaving".  
 The template Tank Controller Monitor has this conditional formatting activated, but you will likely want to change the values to reflect your specific experiments.
@@ -109,7 +109,7 @@ Next, a panel should appear that is titled "Conditional format rules".
 ![Conditional formatting panel in Google Sheets](/assets/images/conditional_formatting.png)
 
 You should see on the panel a section for the "Minpoint", one for the "Midpoint" and one for the "Maxpoint".  
-In each section, there should be a dropdown menu in which "Number" is selected, followed by a value, follow by a color.
+In each section, there should be a drop-down menu in which "Number" is selected, followed by a value, follow by a color.
 The midpoint is set to the pH setpoint.  At this value, the color of the cell will be completely green.
 The minpoint and the maxpoint (I usually set these to +- 0.1 above or below the setpoint for pH and +- 1 for temperature) are the values for which the color will be completely red.
 Everything in between these values (midpoint and the minpoint/maxpoint) the color of the cell will be a gradient between green and red.
