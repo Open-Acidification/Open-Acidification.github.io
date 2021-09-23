@@ -6,12 +6,17 @@ title: Tank Controller Overview
 
 ![Finished Device](/assets/images/getting_started_finished.jpg)
 
+The Open Acidification Tank Controller is a device to control temperature and pH in an experimental aquarium and intended for ocean acidification research.
+However, the Tank Controller can be used by anyone who wants to precisely control temperature and/or pH in an aquarium.
+The Tank Controller costs approximately $150 to build and has many of the features that units costing many times more.
+
+
+
 ## Repositories
 
 Software:
 
 * [Controller Code](https://github.com/Open-Acidification/TankController) - The arduino code for the tank controller unit
-* [Controller Manager](https://github.com/Open-Acidification/TankControllerManager) - Software for the Tank Controller centralized manager which interfaces with the individual units
 
 Hardware:
 
