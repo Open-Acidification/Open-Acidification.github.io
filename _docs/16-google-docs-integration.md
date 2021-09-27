@@ -46,7 +46,7 @@ You should see the data show up under "Raw_Data" tab that report Tank 1 with a t
 ![Successful Tank Controller Monitor update](/assets/images/Tank_Control_Monitor_success.png)
 
 ## Setting up PushingBox
-Navigate to https://www.pushingbox.com/ and click "Login with Google" in the upper right hand corner. Complete the login with your Google login credentials
+Navigate to <https://www.pushingbox.com/> and click "Login with Google" in the upper right hand corner. Complete the login with your Google login credentials
 
 Next, click on "My Services" in the menu towards the top of the page, then click the "Add a Service" button on the next page.
 Now click on "Select this service" next to "Custom URL".  It will be at or near the bottom of the options.
