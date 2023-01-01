@@ -96,7 +96,7 @@ Navigate to one of those sheets, and select cell "H2". Here you should see a fun
 ```
 Simply replace **70** with the number of data points you would like displayed and return to the "Dashboard" sheet.
 
-### Color Formating
+### Color Formatting
 I have found it helpful to have conditional formatting for the columns displaying Time since update, temperature and pH.
 I have them set to be green when values are close to the expected value, and turn more red when the values deviate from the expected.
 It allows me to quickly scan the data and see what tanks are "misbehaving".  
