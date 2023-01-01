@@ -16,7 +16,7 @@ title: PCB Assembly
 
 ![2-Relay Module Header Pins](/assets/images/relay_headers.jpg)
 
-1. Pull plastic base up and off using a pair of pliers.
+1\. Pull plastic base up and off using a pair of pliers.
 
 ![2-Relay Module Header Pins partially removed](/assets/images/Relay_remove_partial.jpg)
 
@@ -24,7 +24,7 @@ title: PCB Assembly
 
 ![2-relay module without rubber base](/assets/images/plastic_retainer_removed.jpg)
 
-2. Remove pins by grasping the longer end of the pins with a pair of plier and gently pulling away from the board while simultaneously heating the solder with the iron to release the pin.
+2\. Remove pins by grasping the longer end of the pins with a pair of plier and gently pulling away from the board while simultaneously heating the solder with the iron to release the pin.
 
   ![Removing relay pins](/assets/images/relay_remove_pins.jpg)
 
@@ -32,7 +32,7 @@ title: PCB Assembly
 
   ![Remaining solder in through holes](/assets/images/solder_remnant.jpg)
 
-3. Next, remove solder from the through-holes by placing the aperture of the solder sucker directly over a through hole, while simultaneously heating the solder in the through hole with the soldering iron.
+3\. Next, remove solder from the through-holes by placing the aperture of the solder sucker directly over a through hole, while simultaneously heating the solder in the through hole with the soldering iron.
   When the solder liquefies, fire the solder sucker to remove the solder from the hole.
   You may need to repeat this step multiple times per through-hole to completely clear the hole of solder.
   Be careful not to leave the soldering iron on the through-hole too long and cause the pad to separate form the PCB.  
@@ -45,16 +45,15 @@ title: PCB Assembly
 
   You can check by attempting to push the clean end of one of the removed pins through the joint.
   If you can push the pin through easily, it has been cleared.
-  If it fits through, but tightly, you can spin the spin (which should be square in cross-section) in the hole to clear away the last few bits of solder.
+  If it fits through, but tightly, you can spin the pin (which should be square in cross-section) in the hole to clear away the last few bits of solder.
 
-1. Attach new header pins
-  Finally, solder on new pins in the reverse orientation.
+4\. Finally, solder on new pins in the reverse orientation.
 ![Pins reversed on relay module](/assets/images/reversed_pins.jpg)
 
-### Prepare 5V and 9V buck converts
+### Prepare 5V and 9V buck converters
 
 * The bill of materials includes two 16-pin male headers.
-  One of these we will use to supply single pin male headers.
+  We will use one of these to supply single pin male headers.
   Use pliers or wire cutters to break off eight single male header pins.
 
   ![Cutting male headers](/assets/images/cutting_headers.jpg)
@@ -73,7 +72,7 @@ title: PCB Assembly
 
   ![Placement of second pin set](/assets/images/second_pin_placement.jpg)
 
-* Place buck converter on top of these pins.  These pins are very close to a large capacitor that may have to be bent upwards away form the pins in order to safely solder.
+* Place buck converter on top of these pins.  These pins are very close to a large capacitor that may have to be bent upwards away from the pins in order to safely solder.
 
   ![Buck on top of pins again](/assets/images/second_buck_on_top.jpg)
 
@@ -81,9 +80,9 @@ title: PCB Assembly
 
   ![Finished buck converter](/assets/images/finished_buck_converter.jpg)
 
-## Soldering Arduino Header Pins
+## Solder Arduino Header Pins to PCB
 
-![Arduino, 2.5 mm header pins and custom pcb]()
+![Select Arduino, 2.5 mm header pins, and custom pcb]()
 
 * Arduino Mega
 * 1x 2.54 mm 4 header pins
@@ -93,7 +92,7 @@ title: PCB Assembly
 
 ![Arduino Pins Layed Out](/assets/images/Arduino_Header_Layout.jpg)
 
-![Placed header pins on Arduino]()
+![Place header pins on Arduino]()
 
 ![Arduino Pins Placed](/assets/images/Arduino_header_pins_placed.jpg)
 
@@ -111,13 +110,11 @@ title: PCB Assembly
 
 ![Arduino header pins fully soldered](/assets/images/Arduino_header_soldered.jpg)
 
-Carefully remove PCB from arduino
+![Carefully remove PCB from arduino]()
 
 ![PCB removed from Arduino](/assets/images/PCB_removed.jpg)
 
-![Arduino and custom pcb with soldiered header pins]()
-
-## Attaching pH carrier board female header
+## Attaching pH Carrier Board Female Header
 
 ![Tools needed]()
 
@@ -127,7 +124,7 @@ Carefully remove PCB from arduino
   There are many methods one could use to attach this header.
   Here we demonstrate how we have done it.
 
-* Fill first through hole with solder (We use a PCB holder or this process)
+* Fill first through hole with solder (We use a PCB holder for this process)
 
   ![image of PCB placed in PCB holder](/assets/images/PCB_holder.jpg)
 
@@ -152,7 +149,7 @@ Carefully remove PCB from arduino
 
 ![The pH carrier header attached to PCB](/assets/images/attached_header.jpg)
 
-## Attach header for the keypad
+## Attach Header for the Keypad
 
 Using the same method you used to attach the pH carrier board female header, solder on the 8-pin male header for the keypad. Make sure that these pins are placed on the opposite face of the PCB as the Arduino header pins.
 ![Keypad header](/assets/images/keypad_header.jpg)
@@ -162,20 +159,16 @@ Using the same method you used to attach the pH carrier board female header, sol
 Solder on the potentiometer. Make sure this component is soldered onto the same face of the PCB as the Arduino header pins.
 ![Potentiometer being soldered into the PCB](/assets/images/potentiometer.jpg)
 
-## 3.5 mm PT100 jack
+## 3.5 mm Jack
 
-Solder the 3.5mm PT100 jack onto the same face of the PCB as the Arduino header pins.  This component has larger solder pins and will require more solder.
+Solder the 3.5mm jack onto the same face of the PCB as the Arduino header pins.  This component has larger solder pins and will require more solder.
 ![3.5mm audio jack](/assets/images/audio_jack1.jpg)
 
 ![3.5 mm jack solder points](/assets/images/audio_jack_solder_points.jpg)
 
-## Realtime clock female headers
+## Realtime Clock Female Headers
 
 Solder on a 5-position female header on the Real Time Clock location on the PCB on the same face as the Arduino header pins.
-![Real Time Clock Header](/assets/images/RTC_header.jpg)
-
-Solder on a 5-position female header on the Real Time Clock location on the PCB on the same face as the Arduino header pins.
-
 ![Real Time Clock Header](/assets/images/RTC_header.jpg)
 
 ## LCD Header
@@ -183,11 +176,7 @@ Solder on a 5-position female header on the Real Time Clock location on the PCB 
 Solder on a 16-position female header onto the LCD1 position on the opposite face of the PCB from the Arduino header pins.
 ![LCD Header](/assets/images/LCD_Header.jpg)
 
-Solder on a 16-position female header onto the LCD1 position on the opposite face of the PCB from the Arduino header pins.
-
-![LCD Header](/assets/images/LCD_Header.jpg)
-
-## Power screw terminals
+## Power Screw Terminals
 
 Solder on the large screw terminals onto the PCB onto the face opposite the Arduino header pins in the location labeled "Power_Screws1". The openings on the side of the terminals (where the wires will be fed) should be facing toward the "AC Receptacle" location on the PCB.
 ![Power screw terminal 1](/assets/images/screw_terminal1.jpg)
@@ -200,18 +189,7 @@ Solder on the large screw terminals onto the PCB onto the face opposite the Ardu
 
 ![Power screw terminal 2](/assets/images/screw_terminal2.jpg)
 
-## Jumper pins
-
-Solder 5 3-pin male headers onto the positions labeled "LCD POT", "LCD RES", "LCD VDD", "RTC", and "PT100" inside the Arduino header pins, but on the opposite face of the PCB rom the header pins.
-![Jumper pin positions](/assets/images/jumpers1.jpg)
-
-Since these pins will be on the opposite face as the Arduino header pins, and therefore you will be soldering on the side with the long Arduino header terminals, you will need to use a rather steep angle with your soldering iron.
-![Jumper pin soldering](/assets/images/jumpers2.jpg)
-
-![Jumper pin soldered](/assets/images/jumpers3.jpg)
-
-Once they are soldered on, place jumpers between the center pin and the "Arduino" pin on each header.
-![Jumper positions](/assets/images/jumpers4.jpg)
+## Jumper Pins
 
 Solder 5 3-pin male headers onto the positions labeled "LCD POT", "LCD RES", "LCD VDD", "RTC", and "PT100" inside the Arduino header pins, but on the opposite face of the PCB rom the header pins.
 
@@ -227,7 +205,7 @@ Once they are soldered on, place jumpers between the center pin and the "Arduino
 
 ![Jumper positions](/assets/images/jumpers4.jpg)
 
-## AC Power receptacle
+## AC Power Receptacle
 
 Next, solder the AC receptacle onto the opposite face of the PCB from the Arduino header pins.  
 ![The AC Receptacle](/assets/images/AC_Receptacle.jpg)
@@ -240,7 +218,7 @@ Then I can solder on that pin with that solder chunk.
 
 Then I can easily solder the remaining pins.
 
-## Attach buck converters
+## Attach Buck Converters
 
 Now place the buck converters onto the PCB on the same face as the Arduino header pins.
 The through holes for these converters are slightly closer together on the PCB than on the converters.
@@ -271,7 +249,7 @@ It is also useful to check the 7V power output from the screw terminal block for
 Once you have check the voltage outputs of the buck converters, confirming correct placement and that they are in working order, you can solder down those two devices.  Before you do this, however, UNPLUG THE PCB BEFORE MOVING OR ATTEMPTING TO SOLDER the buck converters.
 After you have solders all 4 pins on each buck converter, you can trim the pins on the opposite face from the buck converter with a wire cutter.
 
-## PT100 temperature probe break out board
+## PT100 Temperature Probe Breakout Board
 
 Next we will attach the headers and configure the MAX31865 PT100 temperature probe break out board.  You will need the 8-pin male header that came with the breakout board, a 8-pin female header, three 1-pin female headers, and clip off 3 1-pin headers from the spare 16-pin header as you did with the buck converters.  You will not need the two screw terminals that come with the pt100 breakout board.
 ![Parts needed to attach the pt100 temperature probe](/assets/images/pt100_parts.jpg)
@@ -302,7 +280,7 @@ Next, use a sharp instrument (I use the pointed tip of my wire cutters) to cut t
 Finally, on that same jumper set, solder together the "4" and "3" pads.
 ![243 wire jumpers soldered](/assets/images/pt100_jumper3.jpg)
 
-## Attach real time clock breakout board
+## Attach Real Time Clock Breakout Board
 
 Solder the header pins that came with the PCF8523 Real Time Clock breakout board. I generally do this by placing the header pins on a breadboard, then placing the breakout board on top of that to solder the pins on.
 ![Real Time Clock attached](/assets/images/RTC_breadboard.jpg)
@@ -310,7 +288,7 @@ Solder the header pins that came with the PCF8523 Real Time Clock breakout board
 Then place on the female header on the PCB.  Finally, put a CR1220 coin battery into the breakout board.
 
 
-## Attach the Atlas Scientific EZO pH breakout board
+## Attach the Atlas Scientific EZO pH Breakout Board
 
 Remove the electrically isolated EZO carrier board from the packaging, and attach the header as you did with the RTC breakout board.
 ![EZO pH packaging](/assets/images/EZO_pH_packaging.jpg)
@@ -321,7 +299,7 @@ Next, place the red EZO pH stamp on the carrier board so that the "PH EZO" lette
 
 Finally, place the entire assembly on the "pH carrier board" position on the PCB by inserting the male header on the carrier board into the female header on the PCB.
 
-## 2-relay module attachment
+## 2-relay Module Attachment
 
 First, solder the 3-pin and 4-pin female headers onto the PCB on the side that is opposite the Arduino header pins. To make this easier, you may temporarily remove the real time clock, PT100 and EZO pH breakout boards from the PCB by unplugging them from the PCB and setting them aside.
 ![Soldering the 2-relay module female headers](/assets/images/relay_module_soldering.jpg)
@@ -345,7 +323,7 @@ Tin the ends of the wire where it is not covered by insulation.  This involves h
 Next, bend the wires approximately in the middle.
 ![The wires bended to fit the relay.](/assets/images/wires_bent.jpg)
 
-Next, place on end of the wire in the middle terminal of each of the two 3-position terminal screw blocks on the relay module and place the other sides in the hole in the PCB labeled "Screw1" and "Screw2". Tighten the screws to secure the wires into place.
+Next, place one end of the wire in the middle terminal of each of the two 3-position terminal screw blocks on the relay module and place the other sides in the hole in the PCB labeled "Screw1" and "Screw2". Tighten the screws to secure the wires into place.
 ![attaching to breadboard](/assets/images/wires_placement.jpg)
 
 Finally, solder the ends of the wires in the PCB to the holes.
