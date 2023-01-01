@@ -16,7 +16,7 @@ In the box labeled "Name", the default name will be "Copy of Tank Controller Mon
 
 Next find the spreadsheet ID of your copy of the Tank Controller Monitor spreadsheet and copy it.  You can find it in the URL address of the sheet. I have an example below in which the spreadsheet ID is marked in red.
 
-https://docs.google.com/spreadsheets/d/<span style="color:red">17csF55yQlx2HJP9xseCQdg8_DI6Znge3YeeOjI1ZSZs</span>/edit#gid=0
+`https://docs.google.com/spreadsheets/d/`<span style="color:red">17csF55yQlx2HJP9xseCQdg8_DI6Znge3YeeOjI1ZSZs</span>`/edit#gid=0`
 
 Navigate to the url: script.google.com.
 Click the "New project" button in the upper left of the page to start a new script.  
