@@ -12,11 +12,14 @@ Go to the following link to find the Tank Controller Monitor template: [Monitor 
 
 Make a copy of this template for yourself by clicking on "File" in the menu, then "Make a copy".
 This will bring up the "Copy document" dialog box.
-In the box labeled "Name", the default name will be "Copy of Tank Controller Monitor Template". Instead, give the document any name that you wish. Then click "OK".
+In the box labeled "Name", the default name will be "Copy of Tank Controller Monitor Template".
+Instead, give the document any name that you wish. Then click "OK".
 
-Next find the spreadsheet ID of your copy of the Tank Controller Monitor spreadsheet and copy it.  You can find it in the URL address of the sheet. I have an example below in which the spreadsheet ID is marked in red.
+Next find the spreadsheet ID of your copy of the Tank Controller Monitor spreadsheet and copy it.
+You can find it in the URL address of the sheet.
+I have an example below in which the spreadsheet ID is include in the URL, not the "17csF55yQlx2HJP9xseCQdg8_DI6Znge3YeeOjI1ZSZs" key.
 
-https://docs.google.com/spreadsheets/d/<span style="color:red">17csF55yQlx2HJP9xseCQdg8_DI6Znge3YeeOjI1ZSZs</span>/edit#gid=0
+<https://docs.google.com/spreadsheets/d/17csF55yQlx2HJP9xseCQdg8_DI6Znge3YeeOjI1ZSZs/edit#gid=0>
 
 Navigate to the url: script.google.com.
 Click the "New project" button in the upper left of the page to start a new script.  
