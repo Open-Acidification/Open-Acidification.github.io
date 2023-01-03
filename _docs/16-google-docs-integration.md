@@ -12,9 +12,12 @@ Go to the following link to find the Tank Controller Monitor template: [Monitor 
 
 Make a copy of this template for yourself by clicking on "File" in the menu, then "Make a copy".
 This will bring up the "Copy document" dialog box.
-In the box labeled "Name", the default name will be "Copy of Tank Controller Monitor Template". Instead, give the document any name that you wish. Then click "OK".
+In the box labeled "Name", the default name will be "Copy of Tank Controller Monitor Template".
+Instead, give the document any name that you wish. Then click "OK".
 
-Next find the spreadsheet ID of your copy of the Tank Controller Monitor spreadsheet and copy it.  You can find it in the URL address of the sheet. I have an example below in which the spreadsheet ID is marked in red.
+Next find the spreadsheet ID of your copy of the Tank Controller Monitor spreadsheet and copy it.
+You can find it in the URL address of the sheet.
+I have an example below in which the spreadsheet ID is marked in red.
 
 `https://docs.google.com/spreadsheets/d/`<span style="color:red">17csF55yQlx2HJP9xseCQdg8_DI6Znge3YeeOjI1ZSZs</span>`/edit#gid=0`
 
@@ -96,7 +99,7 @@ Navigate to one of those sheets, and select cell "H2". Here you should see a fun
 ```
 Simply replace **70** with the number of data points you would like displayed and return to the "Dashboard" sheet.
 
-### Color Formating
+### Color Formatting
 I have found it helpful to have conditional formatting for the columns displaying Time since update, temperature and pH.
 I have them set to be green when values are close to the expected value, and turn more red when the values deviate from the expected.
 It allows me to quickly scan the data and see what tanks are "misbehaving".  

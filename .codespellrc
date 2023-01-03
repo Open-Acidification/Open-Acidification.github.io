@@ -1,0 +1,2 @@
+[codespell]
+skip=*.png,./.git/*,*.jpg,Gemfile.lock
