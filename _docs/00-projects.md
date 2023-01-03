@@ -7,7 +7,7 @@ Each project has a few supporting projects.
 
 ### Tank Controller
 
-Aquarium control unit for regulate tank pH through CO<sub>2</sub> addition and temperature.
+Aquarium control unit for regulate tank pH (through CO<sub>2</sub> addition) and temperature.
 
 ### Alkalinity Titrator
 
