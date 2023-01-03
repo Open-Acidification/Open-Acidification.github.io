@@ -1,48 +1,21 @@
 ---
-####################
-## Check spelling ##
-####################
+name: Check Spelling
 
-#
-# Documentation:
-# https://help.github.com/en/articles/workflow-syntax-for-github-actions
-#
+on: push
 
-name: Spell checking
-#############################
-# Start the job on all push #
-#############################
-on:
-  push:
-    branches-ignore:
-      - 'main'
-
-###############
-# Set the Job #
-###############
 jobs:
   build:
-    # Name the Job
-    name: Spell checking
-    # Set the agent to run on
+    name: Check Spelling
     runs-on: ubuntu-latest
-    ##################
-    # Load all steps #
-    ##################
     steps:
-      ##########################
-      # Checkout the code base #
-      ##########################
       - name: Checkout Code
-        uses: actions/checkout@v2
-
-      #############################
-      # Run check spelling action #
-      #############################
-      - name: Check spelling
-        uses: check-spelling/check-spelling@v0.0.18
+        uses: actions/checkout@v3
         with:
-          bucket: .github/actions
-          project: spelling
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Full git history is needed to get a proper 
+          # list of changed files within `super-linter`
+          fetch-depth: 0
+
+      - name: Check Spelling
+        uses: codespell-project/actions-codespell@master
+        with:
+          check_filenames: true

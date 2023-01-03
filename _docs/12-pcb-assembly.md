@@ -90,7 +90,7 @@ title: PCB Assembly
 * 1x 2.54 mm 2x18 header pins
 * Custom PCB
 
-![Arduino Pins Layed Out](/assets/images/Arduino_Header_Layout.jpg)
+![Arduino Pins Laid Out](/assets/images/Arduino_Header_Layout.jpg)
 
 ![Place header pins on Arduino]()
 
