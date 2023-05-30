@@ -282,7 +282,7 @@ Finally, on that same jumper set, solder together the "4" and "3" pads.
 
 ## Attach Real Time Clock Breakout Board
 
-Solder the header pins that came with the PCF8523 Real Time Clock breakout board. I generally do this by placing the header pins on a breadboard, then placing the breakout board on top of that to solder the pins on.
+This component ships with a 5x1 set of header pins. We need the pins facing down (away from the battery), so they will be soldered from the front of the board. A good way to do this is to put the male pins into a breadboard, then place the breakout board on top of the pins (perhaps with some padding to have the breakout board at a right angle from the pins). You can then solder the header pins and remove the breakout board from the breadboard.
 ![Real Time Clock attached](/assets/images/RTC_breadboard.jpg)
 
 Then place on the female header on the PCB.  Finally, put a CR1220 coin battery into the breakout board.
