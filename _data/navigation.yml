@@ -25,11 +25,15 @@ docs:
         url: /docs/15-device-software/
       - title: "Google Docs Integration"
         url: /docs/16-google-docs-integration/
-  - title: Alkalinity Titrator
+  - title: Tank Controller Manager
     children:
       - title: "Overview"
         url: /docs/21-overview/
+  - title: Alkalinity Titrator
+    children:
+      - title: "Overview"
+        url: /docs/31-overview/
   - title: META
     children:
       - title: "License"
-        url: /docs/30-license/
+        url: /docs/40-license/

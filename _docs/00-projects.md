@@ -9,6 +9,10 @@ Each project has a few supporting projects.
 
 Aquarium control unit for regulate tank pH (through CO<sub>2</sub> addition) and temperature.
 
+### Tank Controller Manager
+
+Web application interface for remote access to tank controllers connected to the internet. 
+
 ### Alkalinity Titrator
 
 An apparatus to determine total alkalinity in sea water using an open-cell titration.
@@ -23,8 +27,9 @@ Since then others have contributed to the project, here are a few highlights fro
 * The Tank Controller's micro controller was refactored for testing by [Eliam Calvo](https://github.com/eucalvo) and [Wesley Duerksen](https://github.com/Kavikick) in 2021.
 * The Alkalinity Titrator's second round of development was done by [Konrad McClure](https://github.com/KonradMcClure) and [Noah Griffith](https://github.com/Noah-Griffith) in 2021.
 * The Tank Controller's micro controller was updated to support API calls by [Matthew Ma](https://github.com/PlasmaIntec) in 2020.
-* The Tank Controller Manager was initial created by [Cameron Bierwagen](https://github.com/3dCameron) in 2020.
+* The Tank Controller Manager was initially created by [Cameron Bierwagen](https://github.com/3dCameron) in 2020.
 * The Alkalinity Titrator's initial source code was developed by [Kaden Sukachevin](https://github.com/kadensu) in 2020.
+* The Tank Controller Manager had new features, documentation, and automation added by [Evan Taylor](https://github.com/Suocesky) in 2023.
 
 ## How to Get Involved
 
