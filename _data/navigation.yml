@@ -29,6 +29,8 @@ docs:
     children:
       - title: "Overview"
         url: /docs/21-overview/
+      - title: "TCM Interface"
+        url: /docs/22-interface/
   - title: Alkalinity Titrator
     children:
       - title: "Overview"
