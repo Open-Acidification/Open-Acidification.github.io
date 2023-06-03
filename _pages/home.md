@@ -20,11 +20,18 @@ feature_row:
     url: "/docs/11-overview/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+  - image_path: /assets/images/splash_TCM_front_page.png
+    alt: "Tank Controller Manager"
+    title: "Tank Controller Manager"
+    excerpt: "A web application used to allow remote access to tank controllers currently in use."
+    url: "docs/21-overview/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
   - image_path: /assets/images/splash_alkalinity_titrator.jpg
     alt: "Alkalinity Titrator"
     title: "Alkalinity Titrator"
     excerpt: "An apparatus to determine total alkalinity in sea water using an open-cell titration."
-    url: "/docs/21-overview/"
+    url: "/docs/31-overview/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/splash_full_system.jpg
