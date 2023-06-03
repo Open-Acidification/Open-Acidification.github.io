@@ -11,7 +11,7 @@ Aquarium control unit for regulate tank pH (through CO<sub>2</sub> addition) and
 
 ### Tank Controller Manager
 
-Web application interface for remote access to tank controllers connected to the internet. 
+Web application interface for remote access to tank controllers connected to the internet.
 
 ### Alkalinity Titrator
 

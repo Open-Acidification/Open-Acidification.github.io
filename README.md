@@ -24,12 +24,12 @@ Command to run the website locally.
 bundle exec jekyll serve
 ```
 
-In case of errors when first installing the libraries and running the website locally, try reinstalling jekyll with the command 
+In case of errors when first installing the libraries and running the website locally, try reinstalling jekyll with the command
 ```sh
 gem install jekyll
 ```
 
-You may also want to delete the Gemfile.lock file and reinstalling using the command 
+You may also want to delete the Gemfile.lock file and reinstalling using the command
 ```sh
 bundle
 ```
