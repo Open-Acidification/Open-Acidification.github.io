@@ -29,7 +29,7 @@ Since then others have contributed to the project, here are a few highlights fro
 * The Alkalinity Titrator's initial source code was developed by [Kaden Sukachevin](https://github.com/kadensu) in 2020.
 * The Tank Controller's micro controller was refactored for testing by [Eliam Calvo](https://github.com/eucalvo) and [Wesley Duerksen](https://github.com/Kavikick) in 2021.
 * The Alkalinity Titrator's second round of development was done by [Konrad McClure](https://github.com/KonradMcClure) and [Noah Griffith](https://github.com/Noah-Griffith) in 2021.
-* The Tank Controller had support added for remote access via the Tank Controller Manager by [Trevor Natiuk](https://github.com/pianistrevor) in 2022. This was done in collaboration with [Kaelan Willauer](https://github.com/KaelanWillauer) who worked on the Tank Controller Manager and designed its current interface in the same year. 
+* The Tank Controller had support added for remote access via the Tank Controller Manager by [Trevor Natiuk](https://github.com/pianistrevor) in 2022. This was done in collaboration with [Kaelan Willauer](https://github.com/KaelanWillauer) who worked on the Tank Controller Manager and designed its current interface in the same year.
 * The Tank Controller Manager had new features, documentation, and automation added by [Evan Taylor](https://github.com/Suocesky) in 2023.
 
 ## How to Get Involved
