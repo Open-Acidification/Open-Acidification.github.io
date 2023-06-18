@@ -38,7 +38,7 @@ feature_row:
     alt: "100% Open"
     title: "100% Open"
     excerpt: "Free to use however you want under the open source licenses. Fork it, customize it... whatever!"
-    url: "/docs/license/"
+    url: "/docs/40-license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
