@@ -1,6 +1,6 @@
 ---
 title: "License"
-permalink: /docs/license/
+permalink: /docs/40-license/
 excerpt: "License for Open Acidification Project Documentation."
 ---
 
